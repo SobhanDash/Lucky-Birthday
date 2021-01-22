@@ -4,9 +4,47 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Kalam', cursive;
+}
+
+
+::placeholder{
+    font-size: 0.9rem;
+    color: blue;
+    font-family: 'Kalam', cursive;
+}
 
 input{
-    font-size: 0.9rem;
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 0.5rem;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    font-size: 1rem;
+
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-bottom: 1rem;
+    padding: 1.8rem;
+    border-radius: 0.7rem;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+#output{
+    place-content: center;
+    place-items: center;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    font-size: 2.8rem;
 }
 
 .container{
@@ -15,11 +53,58 @@ input{
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     margin: 1rem auto;
     padding: 1rem;
-    font-size: x-large;
+    font-size: 1.2rem;
 }
 
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+}
+
+.content{
+    width: 300px;
+    margin: 0rem;
+    padding: 1rem;
+    background-color: blueviolet;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    align-items: center;
+}
+
+.contentreverse{
+    width: 300px;
+    height: 317px;
+    justify-content: center;
+    padding-top: 2rem;
+    background-color: violet;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .content{
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .contentreverse{
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+}
