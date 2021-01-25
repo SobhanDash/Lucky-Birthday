@@ -1,2 +1,3 @@
 # Lucky-Birthday
- A JS app for finding whter your birthday is lucky or not
+ A JS and CLI app for finding wheter your birthday is lucky or not.
+ 
