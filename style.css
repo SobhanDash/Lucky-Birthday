@@ -7,8 +7,9 @@
 body{
     font-family: 'Kalam', cursive;
     background: url("images/bg-main.png");
+    color: #CEE9E6
     /* Hex Codes: #461E52 | #DD517F | #E68E36 | #556DC8 | #7998EE. -Cyberpunk vibes
-    bg-main- #001224 | #006157 | #003345 | #00926D | #00926D | #BDD3CC */
+    bg-main- #001224 | #006157 | #003345 | #00926D  | #BDD3CC */
 }
 
 
@@ -118,7 +119,45 @@ img{
     font-size: 3rem;
     padding: 2rem;
     text-align: center;
+    color: #CEE9E6;
+}
 
+.navigation .nav-pills {
+    text-align: right;
+    font-size: 2rem;
+    color: #CEE9E6;
+}
+
+.ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    
+}
+
+/** lists **/
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.4rem;
+}
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    width: max-content;
+    min-width: 140px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 0.6rem 0.5rem 0.6rem;
+    color: #CEE9E6;
+    /* margin: 1rem  0rem; */
 }
 
 @media only screen and (max-width: 600px) {
