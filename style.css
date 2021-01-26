@@ -3,19 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --nav: #CEE9E6;
+    --para: #00203B;
+    --transparent: #ffffff66;
+    --boxshadow1: #D9DADE;
+    --boxshadow2: #FFFFFF;
+}
 
 body{
     font-family: 'Kalam', cursive;
     background: url("images/bg-main.png");
-    color: #CEE9E6
+    color: var(--nav);
     /* Hex Codes: #461E52 | #DD517F | #E68E36 | #556DC8 | #7998EE. -Cyberpunk vibes
     bg-main- #001224 | #006157 | #003345 | #00926D  | #BDD3CC */
 }
 
 
-::placeholder{
+::placeholder {
     font-size: 0.9rem;
-    color: blue;
+    color: black;
+    font-weight: bold;
     font-family: 'Kalam', cursive;
 }
 
@@ -29,6 +37,9 @@ input{
     outline: none; 
     background-color: #ffffff66;
     box-shadow: 3px 8px 15px #D9DADE, -10px -8px 15px #FFFFFF;
+}
+input[type='date']{
+    font-weight: bold;
 }
 
 
@@ -95,6 +106,7 @@ section{
 .content p {
     margin: 1rem 0;
     font-size: 1.5rem;
+    color: #00203B;
 }
 
 .contentreverse{
@@ -119,13 +131,13 @@ img{
     font-size: 3rem;
     padding: 2rem;
     text-align: center;
-    color: #CEE9E6;
+    color: var(--nav);;
 }
 
 .navigation .nav-pills {
     text-align: right;
     font-size: 2rem;
-    color: #CEE9E6;
+    color: var(--nav);;
 }
 
 .ul {
@@ -156,7 +168,7 @@ img{
     min-width: 140px;
     border-radius: 0.5rem;
     padding: 0.5rem 0.6rem 0.5rem 0.6rem;
-    color: #CEE9E6;
+    color: var(--nav);;
     /* margin: 1rem  0rem; */
 }
 
