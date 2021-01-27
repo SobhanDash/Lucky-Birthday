@@ -79,6 +79,7 @@ section{
     background-color: var(--transparent);
     box-shadow: 3px 8px 15px var(--boxshadow1), -4px -8px 15px var(--boxshadow2);
     border-radius: 1rem;
+    /* for testing */
 }
 
 
