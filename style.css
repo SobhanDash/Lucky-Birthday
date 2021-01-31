@@ -231,6 +231,9 @@ footer span{
 }
 
 @media only screen and (max-width: 600px) {
+    section{
+        max-width: 100%;
+    }
     .main{
         margin: 0;
         padding: 0;
