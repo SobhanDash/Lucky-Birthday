@@ -45,3 +45,9 @@ policy.addEventListener('click', function() {
     setTimeout(function() { 
         policyCard.className = policyCard.className.replace("show", ""); }, 3000);
 })
+
+// force zoom out
+var scale = 'scale(0.9)';
+document.body.style.webkitTransform = scale; // Chrome, Opera, Safari
+document.body.style.msTransform = scale; // IE 9
+document.body.style.transform = scale; // General
