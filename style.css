@@ -62,8 +62,8 @@ button{
 #output{
     place-content: center;
     place-items: center;
-    margin: 2rem;
-    margin-top: 2rem;
+    margin: 1rem;
+    margin-top: 1rem;
     padding: 1rem;
     font-size: 2rem;
     color: var(--para);
@@ -80,6 +80,7 @@ section{
     background-color: var(--transparent);
     box-shadow: 3px 8px 15px var(--boxshadow1), -4px -8px 15px var(--boxshadow2);
     border-radius: 1rem;
+    overflow: clip;
     /* for testing */
 }
 
@@ -230,6 +231,13 @@ footer span{
 }
 
 @media only screen and (max-width: 600px) {
+    .main{
+        margin: 0;
+        padding: 0;
+    }
+    #output{
+        margin-top: 2rem;
+    }
     img{
         display: none;
     }
@@ -257,6 +265,9 @@ footer span{
     footer p{
         font-size: x-large;
         text-align: center;
+    }
+    .list-item-inline {
+        padding: 0;
     }
     #policy-card{
         transform: none;
