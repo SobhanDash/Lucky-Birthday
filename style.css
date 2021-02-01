@@ -14,6 +14,7 @@
 }
 
 body{
+    width: 100vw;
     font-family: 'Kalam', cursive;
     background: url("images/bg-main.png");
     color: var(--nav);
@@ -91,13 +92,15 @@ section{
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
+    align-items: center;
     margin: auto auto auto 1rem;
     padding: 1rem;
 }
 
 .content{
-    width: 400px;
-    height: 40vh;
+    /* width: 400px;
+    height: 40vh; */
+    width: 100%;
     margin-top: 1rem;
     padding: 1rem;
     border-top-left-radius: 1rem;
