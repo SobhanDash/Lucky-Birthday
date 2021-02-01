@@ -16,7 +16,7 @@
 body{
     width: 100vw;
     font-family: 'Kalam', cursive;
-    background: url("images/bg-main.png");
+    background: url("images/bg-main-min.png");
     color: var(--nav);
 }
 
